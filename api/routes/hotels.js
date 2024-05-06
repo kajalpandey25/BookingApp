@@ -5,6 +5,7 @@ const router = express.Router();
 
 // CREATE
 router.post("/",createHotel);
+
 // UPDATE
 
 router.put("/:id", async (req, res) => {
